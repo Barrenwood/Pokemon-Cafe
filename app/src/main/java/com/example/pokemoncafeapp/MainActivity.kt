@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         val diningCheck = findViewById<CheckBox>(R.id.diningCheck)
 
         btnSend.setOnClickListener {
-            val customerName = editName.text
+            val customerName = editName.text.toString()
 
             if (TextUtils.isEmpty(customerName)){
                 val toast = Toast.makeText(this, "Please insert your name", Toast.LENGTH_SHORT)
@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
             Log.d("EXTRAS_SENT", "Receipt Total: $receiptTotal")
 
             val intent = Intent(this@MainActivity, ReceiptActivity::class.java)
-            intent.putExtra("customerName", customerName)
+            intent.putExtra("name", customerName)
             intent.putExtra("item", itemName)
             intent.putExtra("isDining", isDining)
             intent.putExtra("receiptTotal", receiptTotal)

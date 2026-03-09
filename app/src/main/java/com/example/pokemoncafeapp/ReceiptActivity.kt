@@ -27,7 +27,7 @@ class ReceiptActivity : AppCompatActivity() {
         val textPrice = findViewById<TextView>(R.id.textPrice)
 
         // Read the extras
-        val customerName = intent.getStringExtra("customerName")
+        val customerName = intent.getStringExtra("name")
         val item = intent.getStringExtra("item")
         val dining = intent.getBooleanExtra("isDining", true)
         val price = intent.getIntExtra("receiptTotal", 0)
