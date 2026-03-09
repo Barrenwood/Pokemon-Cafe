@@ -34,12 +34,12 @@ class MainActivity : AppCompatActivity() {
         btnSend.setOnClickListener {
             val customerName = editName.text.toString()
 
-            if (TextUtils.isEmpty(customerName)){
+            if (customerName.isEmpty()){
                 val toast = Toast.makeText(this, "Please insert your name", Toast.LENGTH_SHORT)
                 toast.show()
 
-                // Throw error here and prevent moving to next activity
-
+                editName.error = "You must enter a name!"
+                return@setOnClickListener
             }
 
             val isDining = diningCheck.isChecked
