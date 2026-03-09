@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PokemonCafeApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.PokemonCafeApp" parent="Base.Theme.PokemonCafeApp" />
+
+<!--    Cafe Theme-->
+    <style name="Theme.PokemonCafeApp.Cafe" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/cafe_primary</item>
+        <item name="colorSecondary">@color/cafe_secondary</item>
+        <item name="colorSurface">@color/cafe_bg</item>
+    </style>
+</resources>

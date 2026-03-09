@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pokemon Cafe App</string>
+    <string name="welcome_to_the_cafe">Welcome to the Cafe!</string>
+    <string name="what_would_you_like_to_order">What would you like to order?</string>
+    <string name="a_logo_display_of_the_cafe">A logo display of the cafe</string>
+    <string name="palossand_wiches">$10 Palossand-wiches</string>
+    <string name="alcreamie_cone">$5 Alcreamie Cone</string>
+    <string name="koffing_koffee">$3 Koffing Koffee</string>
+    <string name="fidough_nuts">$4 Fidough-nuts</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="submit_your_order">Submit your order</string>
+    <string name="will_you_be_dining_in">Will you be dining in?</string>
+    <string name="thank_you_for_dining_with_us">Thank you for dining with us!</string>
+    <string name="an_image_of_a_pikachu_saying_thank_you">An image of a Pikachu saying thank you</string>
+    <string name="here_is_your_receipt">Here is your receipt!</string>
+</resources>

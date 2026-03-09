@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--    Cafe theme colors-->
+    <color name="cafe_primary">#45050C</color>
+    <color name="cafe_secondary">#ba5c12</color>
+    <color name="cafe_bg">#FCD7AD</color>
+</resources>
